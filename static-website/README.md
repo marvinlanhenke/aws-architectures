@@ -29,8 +29,8 @@ This project demonstrates how to host a simple static website using Amazon S3, f
 ### 1. Clone the repository
 
 ```shell
-git clone https://github.com/your-username/aws-s3-static-website-terraform.git
-cd aws-s3-static-website-terraform
+git clone https://github.com/marvinlanhenke/aws-architectures.git
+cd aws-architectures/static-website
 ```
 
 ### 2. Configure AWS Credentials
@@ -52,7 +52,7 @@ export AWS_DEFAULT_REGION="eu-central-1"
 Place your index.html and error.html files inside the website/ directory:
 
 ```shell
-aws-s3-static-website-terraform/
+static-website/
 ├── main.tf
 ├── website/
 │   ├── index.html
