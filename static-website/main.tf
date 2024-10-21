@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "static_site" {
-  bucket = "ml-asa-static-website"
+  bucket = "ml-sa-static-website"
 }
 
 resource "aws_s3_bucket_public_access_block" "public_access_block" {
