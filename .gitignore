@@ -50,3 +50,4 @@ node_modules
 
 .teamcity/target
 awssdk.patch
+*.pem
